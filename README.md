@@ -53,7 +53,7 @@ def reshape_and_normalize(images):
 
 # Apply your function
 training_images = reshape_and_normalize(training_images)
-print('Name:SHARMITHA V         RegisterNumber: 212223110048         \n')
+print('Name:D Vergin Jenifer         RegisterNumber: 212223240174        \n')
 print(f"Maximum pixel value after normalization: {np.max(training_images)}\n")
 print(f"Shape of training set after reshaping: {training_images.shape}\n")
 print(f"Shape of one image after reshaping: {training_images[0].shape}")
@@ -104,11 +104,12 @@ training_history = model.fit(training_images, training_labels, epochs=10, callba
 
 ### Reshape and Normalize output
 
-![image](https://github.com/user-attachments/assets/2371e89a-29b6-45d7-9880-bdf4cb405f28)
+![image](https://github.com/user-attachments/assets/a964f977-de48-482b-a220-63bf0842e8d7)
+
 
 ### Training the model output
+![image](https://github.com/user-attachments/assets/7e91da49-c165-4f81-bb40-258cc941339d)
 
-![image](https://github.com/user-attachments/assets/7cddde1a-6358-459a-bd7b-28d86100cd52)
 
 ## RESULT
 A convolutional deep neural network for digit classification has been successfully implemented
